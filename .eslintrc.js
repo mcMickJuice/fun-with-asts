@@ -5,6 +5,9 @@ module.exports = {
         "es6": true,
         "node": true
     },
+    "plugins": [
+      "eslint-plugin-local-rules"
+    ],
     "extends": "eslint:recommended",
     "rules": {
         "indent": [
@@ -18,6 +21,7 @@ module.exports = {
         "quotes": [
             "error",
             "single"
-        ]
+        ],
+        "local-rules/angular-no-scope": 2
     }
 };
