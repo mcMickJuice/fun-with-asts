@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./rules-in-action"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "eslint": "^3.19.0",
-    "jest": "^20.0.3"
+    "jest": "^20.0.3",
+    "eslint-plugin-local-rules": "^0.0.2"
   }
 }
