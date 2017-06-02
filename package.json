@@ -9,6 +9,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "babel-codemod": "^1.2.0",
     "babel-plugin-tester": "^3.0.0",
     "eslint": "^3.19.0",
     "eslint-plugin-local-rules": "^0.0.2",

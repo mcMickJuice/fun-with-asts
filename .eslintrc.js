@@ -22,6 +22,7 @@ module.exports = {
             "error",
             "single"
         ],
+        "no-console": 0,
         "local-rules/angular-no-scope": 2
     }
 };
