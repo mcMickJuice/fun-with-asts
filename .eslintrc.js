@@ -1,28 +1,18 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true,
-        "node": true
-    },
-    "plugins": [
-      "eslint-plugin-local-rules"
-    ],
-    "extends": "eslint:recommended",
-    "rules": {
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
-        "quotes": [
-            "error",
-            "single"
-        ],
-        "local-rules/angular-no-scope": 2,
-        "no-console": 0
-    }
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    //registers this npm package as plugin
+    "eslint-plugin-local-rules"
+  ],
+  "rules": {
+    //using eslint-plugin-local-rules plugin, we tell
+    //eslint to use our local-rule. See eslint-local-rules.js
+    //in project root to see where this local rule is registered
+    "local-rules/angular-no-scope": 2,
+  }
 };
