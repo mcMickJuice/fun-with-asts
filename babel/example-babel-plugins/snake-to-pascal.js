@@ -9,11 +9,11 @@ function toTitleCase(str) {
   return `${first.toUpperCase()}${rest.join('')}`
 }
 
+//see this in action - https://astexplorer.net/#/gist/15d316d1dca726981481a8c95351e468/160c33c9d9a5fa21076c64fd2b8ef6f37ca30569
 module.exports = function snakeToPascal(babel) {
   const { types: t } = babel;
 
   return {
-    name: 'ast-transform', // not required
     visitor: {
       VariableDeclarator(path) {
         var node = path.node;
