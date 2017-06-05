@@ -1,4 +1,4 @@
-const importantFunc = require('../importantFunc')
+const importantFunc = require('./importantFunc')
 
 const name = 'larry';
 const age = 'five months';
