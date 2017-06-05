@@ -1,3 +1,5 @@
 {
-  
+  "plugins": [
+    "./babel/expensive-operation-logging/expensive-operation-logging"
+  ]
 }

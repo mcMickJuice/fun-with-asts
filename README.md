@@ -20,4 +20,4 @@ The following scripts can be run (either using `npm run SCRIPT` or `yarn run SCR
 * `test` - runs all test files (in babel and eslint folders)
 * `lint` - runs eslint using local eslint rule against `eslint/src` directory
 * `babel:codemod` - runs babel plugins against UPDATE THIS! to update src files _in place_, essentially using babel as a codemod utility
-* `babel:transform` - runs babel plugins against UPDATE THIS source files and emits the altered javascript files to the `babel-dist` folder in project root
+* `babel:transform` - runs babel plugins against files in `babel/expensive-operation-logging/src` and emits the altered javascript files to the `babel-dist` folder in project root

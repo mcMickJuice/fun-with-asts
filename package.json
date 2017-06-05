@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint ./eslint/src",
     "babel:codemod": "codemod --plugin babel/func-api-change/func-api-change.js babel/func-api-change/sample-code",
-    "babel:transform": "babel"
+    "babel:transform": "babel ./babel/expensive-operation-logging/src -d babel-dist"
   },
   "dependencies": {},
   "devDependencies": {
