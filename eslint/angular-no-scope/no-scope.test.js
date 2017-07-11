@@ -42,8 +42,6 @@ ruleTester.run('no-scope', noScopeRule, {
     invalid(invalidCtrlWithParam),
     invalid(invalidCtrlWithInject)
   ]
-
-
 })
 
 function invalid(code) {
