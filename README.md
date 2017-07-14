@@ -1,6 +1,6 @@
 # Fun with ASTs
 
-This repo is a code companion of the Changing code with code blog that was posted in June of 2017 on ILM's Super Developer blog.  It contains code that shows how to:
+This repo is a code companion of the Changing code with code blog that was posted in July of 2017 on ILM's Super Development blog.  It contains code that shows how to:
 
 * write a babel plugin
 * run a babel plugin against javascript file(s) and emit tranformed javascript
@@ -19,5 +19,5 @@ Pull down this repo and install the package dependecies either via `npm install`
 The following scripts can be run (either using `npm run SCRIPT` or `yarn run SCRIPT`) to see these tools in action:
 * `test` - runs all test files (in babel and eslint folders)
 * `lint` - runs eslint using local eslint rule against `eslint/src` directory
-* `babel:codemod` - runs babel plugins against UPDATE THIS! to update src files _in place_, essentially using babel as a codemod utility
+* `babel:codemod` - runs babel plugins against `babel/func-api-change/src` to update src files _in place_, essentially using babel as a codemod utility
 * `babel:transform` - runs babel plugins against files in `babel/expensive-operation-logging/src` and emits the altered javascript files to the `babel-dist` folder in project root
