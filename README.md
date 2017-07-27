@@ -1,6 +1,6 @@
 # Fun with ASTs
 
-This repo is a code companion of the Changing code with code blog that was posted in July of 2017 on ILM's Super Development blog.  It contains code that shows how to:
+This repo is a code companion of the [AST’s and JavaScript: Write Code that Writes Code](https://superdevelopment.com/2017/07/24/asts-and-javascript-write-code-that-writes-code/) blog post that was posted in July of 2017 on ILM's Super Development blog.  It contains code that shows how to:
 
 * write a babel plugin
 * run a babel plugin against javascript file(s) and emit tranformed javascript
